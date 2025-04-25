@@ -13,9 +13,9 @@ export default function ServicesSection() {
     },
     {
       icon: <Smartphone className="h-6 w-6" />,
-      title: "Desarrollo Móvil",
+      title: "Diseño responsivo",
       description:
-        "Aplicaciones móviles nativas y multiplataforma que funcionan perfectamente en todos los dispositivos.",
+        "Aplicaciones adaptadas a todos los dispositivos. Diseños intuitivos y funcionales para una experiencia de usuario excepcional.",
     },
     {
       icon: <Code className="h-6 w-6" />,
@@ -107,10 +107,7 @@ export default function ServicesSection() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-gray-900">{service.title}</h3>
                 <p className="text-gray-600">{service.description}</p>
-                <div className="mt-6 flex items-center text-blue-600 font-medium">
-                  <span>Saber más</span>
-                  <ArrowRight size={16} className="ml-2" />
-                </div>
+           
               </div>
             </motion.div>
           ))}

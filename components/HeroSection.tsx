@@ -7,7 +7,7 @@ import Link from "next/link"
 import Image from "next/image"
 
 export default function HeroSection() {
-  const phrases = ["Desarrollo Web", "Diseño UI/UX", "Apps Móviles", "E-commerce", "Aplicaciones Web"]
+  const phrases = ["Desarrollo Web", "Diseño UI/UX", "E-commerce", "Marketing Digital"]
   const [currentPhrase, setCurrentPhrase] = useState(0)
   const [currentText, setCurrentText] = useState("")
   const [isDeleting, setIsDeleting] = useState(false)
@@ -97,7 +97,7 @@ export default function HeroSection() {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.2, duration: 0.5 }}
               >
-                &lt;desarrollador creativo&gt;
+                &lt;desarrollo web&gt;
               </motion.span>
 
               <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-gray-900">
@@ -134,8 +134,8 @@ export default function HeroSection() {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.6, duration: 0.5 }}
               >
-                Construyo experiencias digitales excepcionales y accesibles para la web, convirtiendo tus ideas en
-                realidad con las tecnologías más avanzadas.
+                Desarrollamos landing pages y comercios virtuales optimizados. 
+                Creamos experiencias web fáciles de usar, rápidas y funcionales para que puedas enfocarte en lo que mejor haces: hacer crecer tu negocio
               </motion.p>
 
               <motion.div
@@ -148,7 +148,7 @@ export default function HeroSection() {
                   href="#contact"
                   className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-md hover:from-blue-700 hover:to-indigo-700 transition-all shadow-md"
                 >
-                  Iniciar Proyecto <ArrowRight size={16} />
+                  Contacto <ArrowRight size={16} />
                 </Link>
 
                 <Link
@@ -159,15 +159,7 @@ export default function HeroSection() {
                 </Link>
               </motion.div>
 
-              <motion.div
-                className="mt-12 flex items-center gap-2 text-gray-500"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 1, duration: 0.5 }}
-              >
-                <MousePointer size={14} />
-                <span className="text-sm">Desplázate para explorar</span>
-              </motion.div>
+  
             </motion.div>
           </div>
 

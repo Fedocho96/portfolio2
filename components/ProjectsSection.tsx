@@ -13,19 +13,19 @@ export default function ProjectsSection() {
   const projects: Project[] = [
     {
       id: 1,
-      title: "Plataforma E-commerce",
+      title: "JV Bartender",
       description:
-        "Una tienda online completa con integración de pagos y gestión de inventario.",
+        "Una Landing Page completa con integración de animaciones, slider de imagenes con PopUp y diseño personalizado.",
       longDescription:
-        "Una solución de comercio electrónico integral con cuentas de clientes, gestión de productos y panel de análisis. Construida con rendimiento y escalabilidad en mente.",
-      image: "/placeholder.svg?height=600&width=800",
-      tags: ["Next.js", "Tailwind CSS", "Stripe"],
+        "Una solución de Landing Page con integración de animaciones, slider de imagenes con PopUp y diseño personalizado. Construida con rendimiento y escalabilidad en mente.",
+      image: "/jvbartender.webp",
+      tags: ["Javascript", "Tailwind CSS", "React", "Node.js", "FramerMotion"],
       category: "web",
       featured: true,
-      client: "Minorista de Moda",
-      year: "2023",
-      link: "#",
-      github: "#",
+      client: "Servicio de barra y bartender JV",
+      year: "2025",
+      link: "https://jvbartender.com",
+      github: null,
       color: "from-purple-500 to-pink-500",
     },
     {
@@ -234,12 +234,14 @@ export default function ProjectsSection() {
                     </div>
                   </div>
 
-                  <Link
+                  <a
                     href={featuredProject.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="px-6 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-md hover:from-blue-700 hover:to-indigo-700 transition-all shadow-md flex items-center gap-2"
                   >
                     Ver Proyecto <ExternalLink size={16} />
-                  </Link>
+                  </a>
                   {featuredProject.github && (
                     <Link
                       href={featuredProject.github}

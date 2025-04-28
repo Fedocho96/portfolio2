@@ -15,10 +15,19 @@ export default function AboutSection() {
     "Framer Motion",
     "MongoDB",
     "PostgreSQL",
-    "GraphQL",
     "REST API",
-    "AWS",
     "Vercel",
+    "Git",
+    "GitHub",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "UI/UX Design",
+    "Agile",
+    "Scrum",
+    "Testing",
+
+    "Responsive Design",
   ];
 
   return (
@@ -65,7 +74,7 @@ export default function AboutSection() {
           >
             <div className="relative w-full max-w-md mx-auto aspect-square rounded-2xl overflow-hidden border-8 border-white shadow-xl bg-gradient-to-br from-blue-50 to-indigo-100 p-2">
               <Image
-                src="/placeholder.svg?height=400&width=400"
+                src="/FotoPerfil.webp"
                 alt="Perfil"
                 className="object-cover"
                 fill
@@ -80,14 +89,13 @@ export default function AboutSection() {
             transition={{ duration: 0.5 }}
           >
             <h3 className="text-2xl font-bold mb-4 text-gray-900">
-              Hola, soy Alex
+              Hola, soy Fede
             </h3>
             <p className="text-gray-600 mb-6 text-lg animate-floating-text">
-              Con más de 5 años de experiencia en desarrollo web, me especializo
+              Con más de 2 años de experiencia en desarrollo web, me especializo
               en crear sitios web y aplicaciones modernas, responsivas y de alto
-              rendimiento. Mi enfoque combina experiencia técnica con un buen
-              ojo para el diseño para ofrecer soluciones que no solo funcionan
-              perfectamente, sino que también lucen impresionantes.
+              rendimiento. Cuento con una diplomatura en desarrollo web de la UTN, 
+              certificado en desarrollo fullstack en Henry y certificado en desarrollo con React y Tester QA en Coderhouse.
             </p>
             <p className="text-gray-600 mb-6 text-lg">
               Trabajo estrechamente con los clientes para entender sus

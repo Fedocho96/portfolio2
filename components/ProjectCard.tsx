@@ -70,13 +70,15 @@ export default function ProjectCard({ project, variants }: ProjectCardProps) {
         </div>
 
         <div className="flex gap-3 items-center opacity-0 -translate-y-4 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
-          <Link
+          <a
             href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
             className="p-2 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-full hover:from-blue-700 hover:to-indigo-700 transition-all shadow-md"
             aria-label={`Ver proyecto ${project.title}`}
           >
             <Eye size={18} />
-          </Link>
+          </a>
           {project.github && (
             <Link
               href={project.github}

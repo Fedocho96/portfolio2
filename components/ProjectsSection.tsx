@@ -26,93 +26,25 @@ export default function ProjectsSection() {
       year: "2025",
       link: "https://jvbartender.com",
       github: null,
-      color: "from-purple-500 to-pink-500",
+      color: "from-blue-500 to-pink-500",
     },
     {
       id: 2,
-      title: "Panel de Control SaaS",
+      title: "Gimnasia Artistica MR",
       description:
-        "Panel de administración para un servicio de suscripción con análisis y gestión de usuarios.",
+        "Landing Page para una escuela de gimnasia artistica, con un diseño atractivo y funcional.",
       longDescription:
         "Incluye visualización de datos en tiempo real, gestión de roles de usuario e informes personalizables. Diseñado para facilidad de uso y funcionalidad potente.",
-      image: "/placeholder.svg?height=600&width=800",
-      tags: ["React", "TypeScript", "Chart.js"],
+      image: "/mrgimnasia.webp",
+      tags: ["Javascript", "Tailwind CSS", "React", "Node.js", "FramerMotion"],
       category: "web",
       featured: false,
-      client: "Startup Tecnológica",
-      year: "2023",
-      link: "#",
-      github: "#",
-      color: "from-emerald-500 to-teal-500",
-    },
-    {
-      id: 3,
-      title: "App Bancaria Móvil",
-      description:
-        "Aplicación bancaria móvil segura e intuitiva con seguimiento de transacciones en tiempo real.",
-      longDescription:
-        "Incluye autenticación biométrica, programación de pagos y análisis financieros. Construida con un enfoque en seguridad y experiencia de usuario.",
-      image: "/placeholder.svg?height=600&width=800",
-      tags: ["React Native", "Redux", "Firebase"],
-      category: "mobile",
-      featured: true,
-      client: "Institución Financiera",
-      year: "2022",
-      link: "#",
-      github: "#",
-      color: "from-blue-500 to-indigo-500",
-    },
-    {
-      id: 4,
-      title: "Plataforma Inmobiliaria",
-      description:
-        "Sistema de listado y gestión de propiedades con capacidades avanzadas de búsqueda y filtrado.",
-      longDescription:
-        "Incluye tours virtuales, calculadora de hipotecas y sistema de mensajería agente-cliente. Diseñado para agilizar el proceso de compra y venta de propiedades.",
-      image: "/placeholder.svg?height=600&width=800",
-      tags: ["Next.js", "MongoDB", "Google Maps API"],
-      category: "web",
-      featured: false,
-      client: "Agencia Inmobiliaria",
-      year: "2022",
-      link: "#",
-      github: "#",
-      color: "from-amber-500 to-orange-500",
-    },
-    {
-      id: 5,
-      title: "App de Salud y Fitness",
-      description:
-        "Aplicación personalizada de seguimiento de ejercicios y nutrición con análisis de progreso.",
-      longDescription:
-        "Incluye planes de entrenamiento, seguimiento de comidas y visualización de progreso. Diseñada para ayudar a los usuarios a alcanzar sus objetivos de fitness.",
-      image: "/placeholder.svg?height=600&width=800",
-      tags: ["Flutter", "Firebase", "HealthKit"],
-      category: "mobile",
-      featured: false,
-      client: "Marca de Fitness",
-      year: "2023",
-      link: "#",
-      github: "#",
-      color: "from-red-500 to-rose-500",
-    },
-    {
-      id: 6,
-      title: "Sistema de Identidad de Marca",
-      description:
-        "Diseño integral de identidad de marca que incluye logo, tipografía y directrices visuales.",
-      longDescription:
-        "Creación de un lenguaje visual coherente y directrices de marca para garantizar una aplicación consistente en todos los puntos de contacto.",
-      image: "/placeholder.svg?height=600&width=800",
-      tags: ["Branding", "Tipografía", "Diseño Visual"],
-      category: "design",
-      featured: false,
-      client: "Empresa Tecnológica",
-      year: "2022",
-      link: "#",
+      client: "MR Gimnasia artistica",
+      year: "2025",
+      link: "https://mrgimnasia.vercel.app/",
       github: null,
-      color: "from-violet-500 to-purple-500",
-    },
+      color: "from-pink-500 to-purple-500",
+    }
   ];
 
   const featuredProject = projects.find((project) => project.featured);

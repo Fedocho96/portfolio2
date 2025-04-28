@@ -56,10 +56,10 @@ export default function ContactSection() {
                 <div>
                   <p className="font-medium text-gray-800">Email</p>
                   <a
-                    href="mailto:hola@ejemplo.com"
+                    href="mailto:rowebs.dev@gmail.com"
                     className="text-blue-600 hover:underline"
                   >
-                    hola@ejemplo.com
+                    rowebs.dev@gmail.com
                   </a>
                 </div>
               </div>
@@ -71,19 +71,17 @@ export default function ContactSection() {
                   <p className="font-medium text-gray-800">Redes Sociales</p>
                   <div className="flex gap-3 mt-1">
                     <a
-                      href="#"
-                      className="text-gray-600 hover:text-blue-600 transition-colors"
-                    >
-                      Twitter
-                    </a>
-                    <a
-                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://www.linkedin.com/in/federico-rosales96/"
                       className="text-gray-600 hover:text-blue-600 transition-colors"
                     >
                       LinkedIn
                     </a>
                     <a
-                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://github.com/Fedocho96/"
                       className="text-gray-600 hover:text-blue-600 transition-colors"
                     >
                       GitHub
@@ -97,7 +95,7 @@ export default function ContactSection() {
                 Cronograma del Proyecto
               </h4>
               <p className="text-gray-700 text-sm mb-4 animate-floating-text">
-                La mayoría de los proyectos pueden completarse en 4-6 semanas,
+                La mayoría de los proyectos pueden completarse en 1-2 semanas,
                 dependiendo de la complejidad y el alcance. Proporcionaré un
                 cronograma detallado durante nuestra consulta inicial.
               </p>

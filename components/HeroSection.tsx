@@ -175,7 +175,7 @@ export default function HeroSection() {
                 whileInView="float"
               >
                 <Image
-                  src="/placeholder.svg?height=400&width=400"
+                  src="/coderlogo.png?height=400&width=400"
                   alt="Vista previa del proyecto"
                   fill
                   className="object-cover"
@@ -192,7 +192,7 @@ export default function HeroSection() {
                 whileInView="float"
               >
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="/henrylogo.jpg?height=300&width=300"
                   alt="Vista previa del proyecto"
                   fill
                   className="object-cover"
@@ -209,7 +209,7 @@ export default function HeroSection() {
                 whileInView="float"
               >
                 <Image
-                  src="/placeholder.svg?height=350&width=350"
+                  src="/UTNlogo.png?height=350&width=350"
                   alt="Vista previa del proyecto"
                   fill
                   className="object-cover"

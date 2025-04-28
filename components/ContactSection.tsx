@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, User } from "lucide-react";
+import { Mail, User, } from "lucide-react";
 
 export default function ContactSection() {
   return (
@@ -94,13 +94,35 @@ export default function ContactSection() {
               <h4 className="font-semibold mb-2 text-gray-900">
                 Cronograma del Proyecto
               </h4>
-              <p className="text-gray-700 text-sm mb-4 animate-floating-text">
+              <p className="text-gray-700 text-sm mb-4 ">
                 La mayoría de los proyectos pueden completarse en 1-2 semanas,
                 dependiendo de la complejidad y el alcance. Proporcionaré un
                 cronograma detallado durante nuestra consulta inicial.
               </p>
             </div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, ease: "easeOut" }}
+              className="max-w-md mx-auto p-6 mt-4 bg-white rounded-2xl shadow-lg text-center space-y-4"
+            >
+              <p className="text-lg font-semibold text-gray-800">
+                También podés contactarnos por WhatsApp
+              </p>
+              <motion.a
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                href="https://wa.me/542245431701?text=Hola%2C%20me%20gustaria%20saber%20mas%20sobre%20el%20servicio."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-6 py-3 bg-green-500 hover:bg-green-600 text-white font-bold rounded-full transition-all"
+              >
+                Abrir WhatsApp
+              </motion.a>
+            </motion.div>
           </motion.div>
+
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}

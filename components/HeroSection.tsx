@@ -1,13 +1,13 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useEffect, useMemo, useState } from "react"
 import { motion } from "framer-motion"
-import { ArrowRight, MousePointer } from "lucide-react"
+import { ArrowRight } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 
 export default function HeroSection() {
-  const phrases = ["Desarrollo Web", "Diseño UI/UX", "E-commerce", "Marketing Digital"]
+  const phrases = useMemo (()=> ["Desarrollo Web", "Diseño UI/UX", "E-commerce", "Marketing Digital"] , []) 
   const [currentPhrase, setCurrentPhrase] = useState(0)
   const [currentText, setCurrentText] = useState("")
   const [isDeleting, setIsDeleting] = useState(false)
@@ -45,13 +45,18 @@ export default function HeroSection() {
   }, [currentPhrase, currentText, isDeleting, phrases])
 
   // Floating animation variants
+  type CustomProps = {
+    x?: number
+    delay?: number
+  }
+
   const floatingAnimation = {
-    initial: (custom: any) => ({
+    initial: (custom: CustomProps) => ({
       y: 0,
       x: custom.x || 0,
       opacity: 0,
     }),
-    animate: (custom: any) => ({
+    animate: (custom: CustomProps) => ({
       y: 0,
       x: 0,
       opacity: 1,

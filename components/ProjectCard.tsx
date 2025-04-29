@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { Eye, Github } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
@@ -24,7 +24,7 @@ export type Project = {
 
 type ProjectCardProps = {
   project: Project;
-  variants: any;
+  variants: Variants;
 };
 
 export default function ProjectCard({ project, variants }: ProjectCardProps) {

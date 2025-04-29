@@ -69,7 +69,7 @@ export default function ProjectCard({ project, variants }: ProjectCardProps) {
           ))}
         </div>
 
-        <div className="flex gap-3 items-center opacity-0 -translate-y-4 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
+        <div className="flex gap-3 items-center">
           <a
             href={project.link}
             target="_blank"

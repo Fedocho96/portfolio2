@@ -12,7 +12,11 @@ export default function Home() {
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-sm border-b border-zinc-200 shadow-sm">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <Link href="/" className="text-xl font-bold">
-            <img src="Rowebslogo2.png" alt="" className="w-max max-w-20 lg:max-w-30 " />
+            <img
+              src="Cookielogo.png"
+              alt=""
+              className="w-max max-w-20 lg:max-w-30 "
+            />
           </Link>
           <nav className="hidden md:flex items-center gap-6">
             <Link
@@ -59,8 +63,12 @@ export default function Home() {
 
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t border-zinc-200 bg-white">
         <div className="container mx-auto px-4 items-center flex justify-center">
-        <Link href="/" className="text-xl font-bold">
-            <img src="Rowebslogo2.png" alt="" className="w-max max-w-20 lg:max-w-30 " />
+          <Link href="/" className="text-xl font-bold">
+            <img
+              src="Cookielogo.png"
+              alt=""
+              className="w-max max-w-20 lg:max-w-30 "
+            />
           </Link>
         </div>
       </footer>

@@ -33,8 +33,7 @@ export default function ProjectsSection() {
       title: "Gimnasia Artistica MR",
       description:
         "Landing Page para una escuela de gimnasia artistica, con un diseño atractivo y funcional.",
-      longDescription:
-        "Incluye visualización de datos en tiempo real, gestión de roles de usuario e informes personalizables. Diseñado para facilidad de uso y funcionalidad potente.",
+      longDescription: "Incluye visualización de datos en tiempo real. .",
       image: "/mrgimnasia.webp",
       tags: ["Javascript", "Tailwind CSS", "React", "Node.js", "FramerMotion"],
       category: "web",
@@ -44,7 +43,30 @@ export default function ProjectsSection() {
       link: "https://mrgimnasia.vercel.app/",
       github: null,
       color: "from-pink-500 to-purple-500",
-    }
+    },
+    {
+      id: 3,
+      title: "MyV Abogados",
+      description: "Landing Page para el estudio juridico de MyV Abogados.",
+      longDescription: ".",
+      image: "/myvimg.JPG",
+      tags: [
+        "Javascript",
+        "Tailwind CSS",
+        "React",
+        "Node.js",
+        "FramerMotion",
+        "HTML",
+        "CSS",
+      ],
+      category: "web",
+      featured: false,
+      client: "MyV Abogados",
+      year: "2025",
+      link: "https://https://myv-abogados.vercel.app/",
+      github: null,
+      color: "from-amber-400 to-amber-800",
+    },
   ];
 
   const featuredProject = projects.find((project) => project.featured);

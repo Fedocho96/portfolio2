@@ -4,7 +4,7 @@ import "./globals.css";
 
 
 export const metadata: Metadata = {
-  title: "RoWebs",
+  title: "Cookie WS",
  
 };
 
@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
          <head>
-        <link rel="icon" href="/Rowebslogo3.png" sizes="any" />
+        <link rel="icon" href="/Cookielogo3.png" sizes="any" />
       </head>
       <body >
         {children}
